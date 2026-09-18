@@ -9,40 +9,59 @@
         <meta name="description" content="Основные кодировки и адаптации платформ концерна VAG. Прошивки и параметрии. SWaP коды">
       
       
-        <meta name="author" content="Kanaduchi">
+        <meta name="author" content="VWCODING">
       
       
-        <link rel="canonical" href="http://www.vwcoding.ru/en/PQ35/comfort/">
+        <link rel="canonical" href="https://vwcoding.ru/en/PQ35/comfort/">
       
-      <link rel="icon" href="../../../assets/icon.png">
-      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.2.1">
-    
-    
       
-        <title>Комфорт - Кодирование автомобилей VAG</title>
+        <link rel="prev" href="../multimedia/">
       
-    
-    
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.e8d9bf0c.min.css">
+      
+        <link rel="next" href="../other/">
+      
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.e6a45f82.min.css">
+          <link rel="alternate" href="../../../PQ35/comfort/" hreflang="ru">
+        
+          <link rel="alternate" href="./" hreflang="en">
         
       
-    
+      
+      <link rel="icon" href="../../../assets/images/icon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
+        <title>Driver's comfort - VAG platforms coding</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
     
       <link rel="stylesheet" href="../../../assets/custom.css">
     
-    <script>__md_scope=new URL("../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -61,10 +80,10 @@
   <!-- Open graph meta tags -->
   <meta name="yandex-verification" content="45920cc0a6f67ad2" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Кодирование автомобилей VAG - Комфорт" />
+  <meta property="og:title" content="VAG platforms coding - Driver's comfort" />
   <meta property="og:description" content="Основные кодировки и адаптации платформ концерна VAG. Прошивки и параметрии. SWaP коды" />
-  <meta property="og:url" content="http://www.vwcoding.ru/en/PQ35/comfort/" />
-  <meta property="og:image" content="http://www.vwcoding.ru//assets/logo.png" />
+  <meta property="og:url" content="https://vwcoding.ru/en/PQ35/comfort/" />
+  <meta property="og:image" content="https://vwcoding.ru//assets/images/logo.png" />
 
   </head>
   
@@ -79,16 +98,13 @@
     <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
     
-    
-      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
-    
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#comfort" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +114,13 @@
         <aside class="md-banner">
           <div class="md-banner__inner md-grid md-typeset">
             
-  <a href="https://vwcoding.ru/main">
+              <button class="md-banner__button md-icon" aria-label="Don't show this again">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+              </button>
+            
+            
+  <a href="https://vwcoding.ru">
       <span class="twemoji" style="">
         <svg style="width:24px;height:24px" viewBox="0 0 24 24">
           <path fill="currentColor" d="M20,4C21.11,4 22,4.89 22,6V18C22,19.11 21.11,20 20,20H4C2.89,20 2,19.11 2,18V6C2,4.89 2.89,4 4,4H20M8.5,15V9H7.25V12.5L4.75,9H3.5V15H4.75V11.5L7.3,15H8.5M13.5,10.26V9H9.5V15H13.5V13.75H11V12.64H13.5V11.38H11V10.26H13.5M20.5,14V9H19.25V13.5H18.13V10H16.88V13.5H15.75V9H14.5V14A1,1 0 0,0 15.5,15H19.5A1,1 0 0,0 20.5,14Z" />
@@ -108,6 +130,9 @@
   </a>
 
           </div>
+          
+            <script>var el=document.querySelector("[data-md-component=announce]");if(el){var content=el.querySelector(".md-typeset");__md_hash(content.innerHTML)===__md_get("__announce")&&(el.hidden=!0)}</script>
+          
         </aside>
       
     </div>
@@ -117,101 +142,126 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../.." title="Кодирование автомобилей VAG" class="md-header__button md-logo" aria-label="Кодирование автомобилей VAG" data-md-component="logo">
+    <a href="../../" title="VAG platforms coding" class="md-header__button md-logo" aria-label="VAG platforms coding" data-md-component="logo">
       
-  <img src="../../../assets/logo.png" alt="logo">
+  <img src="../../../assets/images/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
     </label>
     <div class="md-header__title" data-md-component="header-title">
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Кодирование автомобилей VAG
+            VAG platforms coding
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Комфорт
+              Driver's comfort
             
           </span>
         </div>
       </div>
     </div>
     
-      <form class="md-header__option" data-md-component="palette">
-        
-          
-          
-          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Тёмная сторона"  type="radio" name="__palette" id="__palette_1">
-          
-            <label class="md-header__button md-icon" title="Тёмная сторона" for="__palette_2" hidden>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31z"/></svg>
-            </label>
-          
-        
-          
-          
-          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Светлая сторона"  type="radio" name="__palette" id="__palette_2">
-          
-            <label class="md-header__button md-icon" title="Светлая сторона" for="__palette_1" hidden>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22z"/></svg>
-            </label>
-          
-        
-      </form>
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Светлая сторона"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Светлая сторона" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Тёмная сторона"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Тёмная сторона" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Светлая сторона"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Светлая сторона" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
       <div class="md-header__option">
-        <div class="md-select">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../../PQ35/comfort/" hreflang="ru" class="md-select__link">
+              Русский
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
           
-          <button class="md-header__button md-icon" aria-label="Select language">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24z"/></svg>
-          </button>
-          <div class="md-select__inner">
-            <ul class="md-select__list">
-              
-                <li class="md-select__item">
-                  <a href="../../../PQ35/comfort/" hreflang="ru" class="md-select__link">
-                    Русский
-                  </a>
-                </li>
-                
-                <li class="md-select__item">
-                  <a href="./" hreflang="en" class="md-select__link">
-                    English
-                  </a>
-                </li>
-                
-            </ul>
-          </div>
-        </div>
-      </div>
-    
-    
-      <label class="md-header__button md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
       <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
       </label>
       <nav class="md-search__options" aria-label="Search">
         
-          <a href="javascript:void(0)" class="md-search__icon md-icon" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08z"/></svg>
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
           </a>
         
-        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
       </nav>
       
@@ -219,24 +269,25 @@
       
     </form>
     <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
             Initializing search
           </div>
-          <ol class="md-search-result__list"></ol>
+          <ol class="md-search-result__list" role="presentation"></ol>
         </div>
       </div>
     </div>
   </div>
 </div>
+      
     
     
       <div class="md-header__source">
-        <a href="https://github.com/Kanaduchi/vwcoding/" title="Go to repository" class="md-source" data-md-component="source">
+        <a href="https://github.com/Kanaduchi/vwcoding" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     Kanaduchi/vwcoding
@@ -255,134 +306,182 @@
           
             
 <nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
-  <div class="md-tabs__inner md-grid">
+  <div class="md-grid">
     <ul class="md-tabs__list">
       
         
   
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Main information
+
+        </a>
+      </li>
     
   
 
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../MQB/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  MQB
 
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../MQB-Evo/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  MQB-Evo
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../MEB/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  MEB
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../MLB-Evo/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  MLB/MLB-Evo
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../PQ26/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  PQ26
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  PQ35
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
   
   
   
     <li class="md-tabs__item">
-      <a href="../../" class="md-tabs__link">
-        Main information
+      <a href="../../support/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Support and contributing
+
       </a>
     </li>
   
-
-      
-        
-  
-    
-  
-
-
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../../MQB/main/" class="md-tabs__link">
-        MQB platform
-      </a>
-    </li>
-  
-
-      
-        
-  
-    
-  
-
-
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../../MLB-Evo/main/" class="md-tabs__link">
-        MLB-Evo platform
-      </a>
-    </li>
-  
-
-      
-        
-  
-    
-  
-
-
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../../PQ26/main/" class="md-tabs__link">
-        PQ26 platform
-      </a>
-    </li>
-  
-
-      
-        
-  
-    
-  
-    
-        
-  
-
-
-  
-  
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="../main/" class="md-tabs__link md-tabs__link--active">
-        PQ35 platform
-      </a>
-    </li>
-  
-
-      
-        
-  
-    
-  
-
-
-  <li class="md-tabs__item">
-    <a href="../../utils/longCoding/" class="md-tabs__link">
-      Long-coding calculator
-    </a>
-  </li>
-
-      
-        
-  
-    
-  
-
-
-  <li class="md-tabs__item">
-    <a href="../../utils/xorCalculator/" class="md-tabs__link">
-      XOR calculator
-    </a>
-  </li>
-
-      
-        
-  
-    
-  
-
-
-  <li class="md-tabs__item">
-    <a href="https://yoomoney.ru/to/4100110582992748/100" class="md-tabs__link">
-      Support of project
-    </a>
-  </li>
 
       
     </ul>
@@ -401,24 +500,25 @@
                   <div class="md-sidebar__inner">
                     
 
+
   
 
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="Кодирование автомобилей VAG" class="md-nav__button md-logo" aria-label="Кодирование автомобилей VAG" data-md-component="logo">
+    <a href="../../" title="VAG platforms coding" class="md-nav__button md-logo" aria-label="VAG platforms coding" data-md-component="logo">
       
-  <img src="../../../assets/logo.png" alt="logo">
+  <img src="../../../assets/images/logo.png" alt="logo">
 
     </a>
-    Кодирование автомобилей VAG
+    VAG platforms coding
   </label>
   
     <div class="md-nav__source">
-      <a href="https://github.com/Kanaduchi/vwcoding/" title="Go to repository" class="md-source" data-md-component="source">
+      <a href="https://github.com/Kanaduchi/vwcoding" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     Kanaduchi/vwcoding
@@ -430,1464 +530,683 @@
     
       
       
-      
-
   
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" data-md-state="indeterminate" type="checkbox" id="__nav_1" checked>
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_1">
-          Main information
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Main information" data-md-level="1">
-        <label class="md-nav__title" for="__nav_1">
-          <span class="md-nav__icon md-icon"></span>
-          Main information
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../" class="md-nav__link">
-        Coding of VW cars
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MQB/main/" class="md-nav__link">
-        MQB platform
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MLB-Evo/main/" class="md-nav__link">
-        MLB-Evo platform
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../PQ26/main/" class="md-nav__link">
-        PQ26 platform
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../main/" class="md-nav__link">
-        PQ35 platform
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
   
   
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_6" data-md-state="indeterminate" type="checkbox" id="__nav_1_6" checked>
+    
+    
       
+        
+        
       
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
       
+        
+  
+  
+  
+    <a href="../../" class="md-nav__link">
       
-        <label class="md-nav__link" for="__nav_1_6">
-          Instruments and adapters
-          <span class="md-nav__icon md-icon"></span>
-        </label>
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Main information
+  
+
+    
+  </span>
+  
+  
+
       
-      <nav class="md-nav" aria-label="Instruments and adapters" data-md-level="2">
-        <label class="md-nav__title" for="__nav_1_6">
-          <span class="md-nav__icon md-icon"></span>
-          Instruments and adapters
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../utils/datasetEditor/" class="md-nav__link">
-        Dataset editor
-      </a>
-    </li>
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
   
 
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../utils/longCoding/" class="md-nav__link">
-        Long-coding calculator
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../utils/xorCalculator/" class="md-nav__link">
-        XOR calculator
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../utils/tiresCoding/" class="md-nav__link">
-        Генератор параметрии шин
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../utils/programs/" class="md-nav__link">
-        Список программ и адаптеров
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../utils/odis-e/" class="md-nav__link">
-        ODIS E instruction
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../history/" class="md-nav__link">
-        History of changes
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../questions/" class="md-nav__link">
-        Feedback
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="https://yoomoney.ru/to/4100110582992748/100" class="md-nav__link">
-        Support of project
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
+      
     </li>
   
 
     
       
       
-      
-
   
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" data-md-state="indeterminate" type="checkbox" id="__nav_2" checked>
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_2">
-          MQB platform
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="MQB platform" data-md-level="1">
-        <label class="md-nav__title" for="__nav_2">
-          <span class="md-nav__icon md-icon"></span>
-          MQB platform
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MQB/main/" class="md-nav__link">
-        Information
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
   
   
   
     
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" data-md-state="indeterminate" type="checkbox" id="__nav_2_2" checked>
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_2_2">
-          Drive assistance
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Drive assistance" data-md-level="2">
-        <label class="md-nav__title" for="__nav_2_2">
-          <span class="md-nav__icon md-icon"></span>
-          Drive assistance
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MQB/pACC/" class="md-nav__link">
-        ACC & PACC activation
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MQB/ACC_coding/" class="md-nav__link">
-        ACC coding
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MQB/assistants/" class="md-nav__link">
-        Coding of 3Q* cameras
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MQB/2Q0_assistants/" class="md-nav__link">
-        Coding of 2Q* cameras
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MQB/camAssistFirmwares/" class="md-nav__link">
-        Assistance camera firmwares
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MQB/active_systems/" class="md-nav__link">
-        Safety features
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MQB/fpaCoding/" class="md-nav__link">
-        Configuration of FPA profiles
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MQB/drive/" class="md-nav__link">
-        Driving
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MQB/parking/" class="md-nav__link">
-        Parking
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
     
-    <li class="md-nav__item md-nav__item--nested">
       
+        
+          
+        
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_7" data-md-state="indeterminate" type="checkbox" id="__nav_2_7" checked>
+        
       
+        
       
+        
       
+        
       
-        <label class="md-nav__link" for="__nav_2_7">
-          Estetic lights
-          <span class="md-nav__icon md-icon"></span>
-        </label>
+        
       
-      <nav class="md-nav" aria-label="Estetic lights" data-md-level="2">
-        <label class="md-nav__title" for="__nav_2_7">
-          <span class="md-nav__icon md-icon"></span>
-          Estetic lights
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MQB/esteticLights/" class="md-nav__link">
-        Coding of estetic lights
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MQB/esteticLightsCoding/" class="md-nav__link">
-        Zones of estetic lights
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MQB/esteticLightsCodingRGB/" class="md-nav__link">
-        RGB estetic lihts
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MQB/wash/" class="md-nav__link">
-        Wash and mirrors
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MQB/security/" class="md-nav__link">
-        Open and Closing
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_10" data-md-state="indeterminate" type="checkbox" id="__nav_2_10" checked>
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_2_10">
-          Lights
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Lights" data-md-level="2">
-        <label class="md-nav__title" for="__nav_2_10">
-          <span class="md-nav__icon md-icon"></span>
-          Lights
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MQB/codingLights/" class="md-nav__link">
-        General codings
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MQB/headLights/" class="md-nav__link">
-        Front lights
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MQB/rearLights/" class="md-nav__link">
-        Rear lights
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MQB/sound/" class="md-nav__link">
-        Sound
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MQB/climate/" class="md-nav__link">
-        Climate
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MQB/AID/" class="md-nav__link">
-        Control panel
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
     
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_14" data-md-state="indeterminate" type="checkbox" id="__nav_2_14" checked>
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_2_14">
-          Main unit
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Main unit" data-md-level="2">
-        <label class="md-nav__title" for="__nav_2_14">
-          <span class="md-nav__icon md-icon"></span>
-          Main unit
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MQB/headDevice/" class="md-nav__link">
-        General coding
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MQB/headDeviceTMC/" class="md-nav__link">
-        Activation of TMC
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MQB/headDeviceFunctions/" class="md-nav__link">
-        SWap for DM and CM units
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MQB/headDeviceFunctionsPro/" class="md-nav__link">
-        Unlocking and SWaP of Pro
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
     
-    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_15" data-md-state="indeterminate" type="checkbox" id="__nav_2_15" checked>
+    
+    
       
+        
+        
       
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
       
-      
-        <label class="md-nav__link" for="__nav_2_15">
-          Tires
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Tires" data-md-level="2">
-        <label class="md-nav__title" for="__nav_2_15">
-          <span class="md-nav__icon md-icon"></span>
-          Tires
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
+        
   
   
   
-    <li class="md-nav__item">
-      <a href="../../MQB/tires/" class="md-nav__link">
-        General coding
-      </a>
-    </li>
+    <a href="../../MQB/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MQB
   
 
-            
-          
-            
-              
+    
+  </span>
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../../utils/tiresCoding/" class="md-nav__link">
-        Parameter generation
-      </a>
-    </li>
   
 
-            
-          
-        </ul>
-      </nav>
-    </li>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
   
 
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MQB/addons/" class="md-nav__link">
-        Addons
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MQB/eeprom/" class="md-nav__link">
-        Eeprom memory
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
+      
     </li>
   
 
     
       
       
-      
-
+  
   
   
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" data-md-state="indeterminate" type="checkbox" id="__nav_3" checked>
+    
+    
       
+        
+        
       
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
       
+        
+  
+  
+  
+    <a href="../../MQB-Evo/" class="md-nav__link">
       
-        <label class="md-nav__link" for="__nav_3">
-          MLB-Evo platform
-          <span class="md-nav__icon md-icon"></span>
-        </label>
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MQB-Evo
+  
+
+    
+  </span>
+  
+  
+
       
-      <nav class="md-nav" aria-label="MLB-Evo platform" data-md-level="1">
-        <label class="md-nav__title" for="__nav_3">
-          <span class="md-nav__icon md-icon"></span>
-          MLB-Evo platform
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MLB-Evo/main/" class="md-nav__link">
-        Information
-      </a>
-    </li>
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
   
 
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MLB-Evo/assistants/" class="md-nav__link">
-        Drive assistance
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MLB-Evo/drive/" class="md-nav__link">
-        Driving
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MLB-Evo/security/" class="md-nav__link">
-        Безопасность. Отпирание и запирание
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MLB-Evo/comfort/" class="md-nav__link">
-        Комфорт
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MLB-Evo/climate/" class="md-nav__link">
-        Climate
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MLB-Evo/lights/" class="md-nav__link">
-        Lights
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MLB-Evo/AID/" class="md-nav__link">
-        Control panel
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../MLB-Evo/headDevice/" class="md-nav__link">
-        Main unit
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
+      
     </li>
   
 
     
       
       
-      
-
   
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" data-md-state="indeterminate" type="checkbox" id="__nav_4" checked>
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_4">
-          PQ26 platform
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="PQ26 platform" data-md-level="1">
-        <label class="md-nav__title" for="__nav_4">
-          <span class="md-nav__icon md-icon"></span>
-          PQ26 platform
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../PQ26/main/" class="md-nav__link">
-        Information
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
   
   
   
     
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" data-md-state="indeterminate" type="checkbox" id="__nav_4_2" checked>
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_4_2">
-          Lights
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Lights" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_2">
-          <span class="md-nav__icon md-icon"></span>
-          Lights
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../PQ26/lights/" class="md-nav__link">
-        Управление освещением
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../PQ26/extraLights/" class="md-nav__link">
-        Нестандартные световые решения
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../PQ26/codingLights/" class="md-nav__link">
-        Обозначения ламп
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../PQ26/codingLightsPictures/" class="md-nav__link">
-        Обозначения ламп c картинками
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../PQ26/setLED/" class="md-nav__link">
-        Установка светодиодов
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../PQ26/wash/" class="md-nav__link">
-        Стеклоочистители / Датчик дождя и света
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../PQ26/climate/" class="md-nav__link">
-        Климат / Обогрев зеркал и стекол
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../PQ26/security/" class="md-nav__link">
-        Двери, стекла, цз, брелок и штатная сигнализация
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
     
-    <li class="md-nav__item md-nav__item--nested">
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_6" data-md-state="indeterminate" type="checkbox" id="__nav_4_6" checked>
+    
+    
       
+        
+        
       
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
       
+        
+  
+  
+  
+    <a href="../../MEB/" class="md-nav__link">
       
-        <label class="md-nav__link" for="__nav_4_6">
-          Панель приборов
-          <span class="md-nav__icon md-icon"></span>
-        </label>
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MEB
+  
+
+    
+  </span>
+  
+  
+
       
-      <nav class="md-nav" aria-label="Панель приборов" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_6">
-          <span class="md-nav__icon md-icon"></span>
-          Панель приборов
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../PQ26/instrPanel/" class="md-nav__link">
-        General coding
-      </a>
-    </li>
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
   
 
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../PQ26/instrPanelCoding/" class="md-nav__link">
-        Кривые подсветки панели приборов
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../PQ26/brakes/" class="md-nav__link">
-        Тормоза и шины
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../PQ26/drive/" class="md-nav__link">
-        Динамика и управление
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../PQ26/multimedia/" class="md-nav__link">
-        Мультимедиа
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../PQ26/addons/" class="md-nav__link">
-        Addons
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../PQ26/german/" class="md-nav__link">
-        Словарь немецких терминов
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
+      
     </li>
   
 
     
       
       
-      
-
+  
+  
   
   
     
-  
-  
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_5">
-          PQ35 platform
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="PQ35 platform" data-md-level="1">
-        <label class="md-nav__title" for="__nav_5">
-          <span class="md-nav__icon md-icon"></span>
-          PQ35 platform
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
+        
           
-            
-              
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
   
   
   
-    <li class="md-nav__item">
-      <a href="../main/" class="md-nav__link">
-        Information
-      </a>
+    <a href="../../MLB-Evo/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MLB/MLB-Evo
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
-            
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
           
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../PQ26/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PQ26
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PQ35
+  
+
+    
+  </span>
+  
+  
+
+            </a>
             
               
+              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    PQ35
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../drive/" class="md-nav__link">
-        Управление и динамика
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Управление и динамика
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../lights/" class="md-nav__link">
-        Свет
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Свет
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../multimedia/" class="md-nav__link">
-        Мультимедиа
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Мультимедиа
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
     
   
   
+  
     <li class="md-nav__item md-nav__item--active">
       
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
         
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Комфорт
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Driver's comfort
+  
+
+    
+  </span>
+  
+  
+
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Комфорт
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Driver's comfort
+  
+
+    
+  </span>
+  
+  
+
       </a>
       
         
@@ -1906,295 +1225,463 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#ii" class="md-nav__link">
-    Косвенный контроль давления в шинах II поколения
+  <a href="#indirect-tire-pressure-control-generation-ii" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Indirect tire pressure control generation II
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#-maxidot" class="md-nav__link">
-    Круиз-контроль на MaxiDot
+  <a href="#cruise-control-on-maxidot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cruise control on MaxiDot
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#maxidot" class="md-nav__link">
-    Автоматический задний стеклоочиститель на MaxiDot
+  <a href="#automatic-rear-wiper-on-maxidot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Automatic rear wiper on MaxiDot
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    Отключение переменного положения передних стеклоочистителей
+  <a href="#disabling-the-variable-position-of-the-front-windshield-wipers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disabling the variable position of the front windshield wipers
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    Отключение зоны парковки передних стеклоочистителей
+  <a href="#disable-the-front-wiper-parking-zone" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disable the front wiper parking zone
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    Дополнительный взмах передних стеклоочистителей
+  <a href="#additional-sweep-of-front-windshield-wipers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Additional sweep of front windshield wipers
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    Дополнительный взмах заднего стеклоочистителя
+  <a href="#additional-rear-wiper-stroke" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Additional rear wiper stroke
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    Работа заднего стеклоочистителя при включении задней передачи
+  <a href="#rear-wiper-operation-when-reverse-gear-is-engaged" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rear wiper operation when reverse gear is engaged
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
-    Отключение заднего стеклоочистителя
+  <a href="#disabling-the-rear-wiper" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disabling the rear wiper
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
-    Изменение частоты срабатывания фароомывателей
+  <a href="#changing-the-frequency-of-operation-of-the-headlight-washers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changing the frequency of operation of the headlight washers
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_9" class="md-nav__link">
-    Отключение фароомывателей
+  <a href="#disabling-headlight-washers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disabling headlight washers
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_10" class="md-nav__link">
-    Настройка датчика света
+  <a href="#configuring-the-light-sensor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuring the light sensor
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_11" class="md-nav__link">
-    Настройка датчика дождя
+  <a href="#setting-up-the-rain-sensor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Setting up the rain sensor
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_12" class="md-nav__link">
-    Отключение датчика света
+  <a href="#disabling-the-light-sensor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disabling the light sensor
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_13" class="md-nav__link">
-    Отключение датчика дождя
+  <a href="#disabling-the-rain-sensor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disabling the rain sensor
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_14" class="md-nav__link">
-    Показания остатка места в баке на дисплее
+  <a href="#indications-of-the-remaining-space-in-the-tank-on-the-display" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Indications of the remaining space in the tank on the display
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_15" class="md-nav__link">
-    Синхронная регулировка зеркал
+  <a href="#synchronized-mirror-adjustment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Synchronized mirror adjustment
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_16" class="md-nav__link">
-    Электроскладывание зеркал
+  <a href="#power-folding-mirrors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Power folding mirrors
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_17" class="md-nav__link">
-    Опускание правого зеркала заднего вида при движении задним ходом
+  <a href="#lowering-the-right-rear-view-mirror-when-reversing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lowering the right rear view mirror when reversing
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_18" class="md-nav__link">
-    Настройка времени обогрева зеркал и заднего стекла
+  <a href="#setting-the-time-for-heated-mirrors-and-rear-window" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Setting the time for heated mirrors and rear window
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_19" class="md-nav__link">
-    Деактивация отключения обогрева зеркал и заднего стекла
+  <a href="#deactivating-the-heated-mirrors-and-rear-window" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deactivating the heated mirrors and rear window
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_20" class="md-nav__link">
-    Память рециркуляции
+  <a href="#recirculation-memory" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recirculation memory
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_21" class="md-nav__link">
-    Память подогрева передних сидений
+  <a href="#heated-front-seats-memory" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Heated front seats memory
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_22" class="md-nav__link">
-    Адаптивный подогрев передних сидений
+  <a href="#adaptive-heated-front-seats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adaptive heated front seats
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_23" class="md-nav__link">
-    Автоматическая блокировка дверей
+  <a href="#automatic-door-lock" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Automatic door lock
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_24" class="md-nav__link">
-    Автоматическая разблокировка дверей
+  <a href="#automatic-door-unlocking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Automatic door unlocking
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_25" class="md-nav__link">
-    Селективное открытие дверей
+  <a href="#selective-door-opening" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Selective door opening
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_26" class="md-nav__link">
-    Управление брелком ключа при включенном зажигании
+  <a href="#controlling-the-key-fob-with-the-ignition-on" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Controlling the key fob with the ignition on
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_27" class="md-nav__link">
-    Управление электростеклоподъемниками через кнопку на центральной консоли
+  <a href="#control-of-electric-windows-via-a-button-on-the-center-console" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Control of electric windows via a button on the center console
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_28" class="md-nav__link">
-    Работа электростеклоподъемников после открытия дверей
+  <a href="#operation-of-electric-windows-after-opening-doors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operation of electric windows after opening doors
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_29" class="md-nav__link">
-    Работа электростеклоподъемников после выключения зажигания
+  <a href="#operation-of-electric-windows-after-turning-off-the-ignition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operation of electric windows after turning off the ignition
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_30" class="md-nav__link">
-    Автоматическое закрытие стекол во время дождя
+  <a href="#automatic-closing-of-windows-when-it-rains" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Automatic closing of windows when it rains
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_31" class="md-nav__link">
-    Оповещение о не пристегнутом ремне водителя
+  <a href="#driver-seat-belt-warning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Driver seat belt warning
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_32" class="md-nav__link">
-    Изменение звука оповещения о не пристегнутом ремне водителя
+  <a href="#changing-the-sound-of-the-drivers-seat-belt-warning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changing the sound of the driver's seat belt warning
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_33" class="md-nav__link">
-    Работа клаксона на заглушенном автомобиле
+  <a href="#horn-operation-when-the-car-is-turned-off" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Horn operation when the car is turned off
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_34" class="md-nav__link">
-    Корректировка показаний спидометра
+  <a href="#adjusting-the-speedometer-readings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adjusting the speedometer readings
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_35" class="md-nav__link">
-    Корректировка показаний уровня топлива
+  <a href="#adjusting-fuel-level-readings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adjusting fuel level readings
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_36" class="md-nav__link">
-    Корректировка показаний расхода топлива и запаса хода
+  <a href="#adjusting-fuel-consumption-and-range-readings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adjusting fuel consumption and range readings
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#-" class="md-nav__link">
-    Адаптация климат-контроля
+  <a href="#climate-control-adaptation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Climate control adaptation
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_37" class="md-nav__link">
-    Отключение сигнала включения парктроника
+  <a href="#disabling-the-parking-sensor-activation-signal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disabling the parking sensor activation signal
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_38" class="md-nav__link">
-    Регулирование громкости парктроника
+  <a href="#parking-sensor-volume-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parking sensor volume control
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_39" class="md-nav__link">
-    Отключение запирания лючка бензобака
+  <a href="#disabling-the-fuel-filler-door-lock" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disabling the fuel filler door lock
+      
+    </span>
   </a>
   
 </li>
@@ -2206,171 +1693,129 @@
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../other/" class="md-nav__link">
-        Прочие функции
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Прочие функции
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_7" data-md-state="indeterminate" type="checkbox" id="__nav_5_7" checked>
+    
+    
       
+        
+        
       
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
       
+        
+  
+  
+  
+    <a href="../Tiguan/drive/" class="md-nav__link">
       
-        <label class="md-nav__link" for="__nav_5_7">
-          Кодирование Tiguan 1st Gen
-          <span class="md-nav__icon md-icon"></span>
-        </label>
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Кодирование Tiguan 1st Gen
+  
+
+    
+  </span>
+  
+  
+
       
-      <nav class="md-nav" aria-label="Кодирование Tiguan 1st Gen" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_7">
-          <span class="md-nav__icon md-icon"></span>
-          Кодирование Tiguan 1st Gen
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
               
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tiguan/drive/" class="md-nav__link">
-        Управление и динамика
-      </a>
-    </li>
-  
-
             
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tiguan/comfort/" class="md-nav__link">
-        Комфорт
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tiguan/lights/" class="md-nav__link">
-        Свет
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tiguan/instrPanel/" class="md-nav__link">
-        Control panel
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tiguan/multimedia/" class="md-nav__link">
-        Мультимедиа
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
-      <a href="../../utils/longCoding/" class="md-nav__link">
-        Long-coding calculator
-      </a>
-    </li>
+      <a href="../../support/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Support and contributing
   
 
     
-      
-      
-      
-
+  </span>
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../../utils/xorCalculator/" class="md-nav__link">
-        XOR calculator
-      </a>
-    </li>
   
 
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="https://yoomoney.ru/to/4100110582992748/100" class="md-nav__link">
-        Support of project
       </a>
     </li>
   
@@ -2403,295 +1848,463 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#ii" class="md-nav__link">
-    Косвенный контроль давления в шинах II поколения
+  <a href="#indirect-tire-pressure-control-generation-ii" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Indirect tire pressure control generation II
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#-maxidot" class="md-nav__link">
-    Круиз-контроль на MaxiDot
+  <a href="#cruise-control-on-maxidot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cruise control on MaxiDot
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#maxidot" class="md-nav__link">
-    Автоматический задний стеклоочиститель на MaxiDot
+  <a href="#automatic-rear-wiper-on-maxidot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Automatic rear wiper on MaxiDot
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    Отключение переменного положения передних стеклоочистителей
+  <a href="#disabling-the-variable-position-of-the-front-windshield-wipers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disabling the variable position of the front windshield wipers
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    Отключение зоны парковки передних стеклоочистителей
+  <a href="#disable-the-front-wiper-parking-zone" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disable the front wiper parking zone
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    Дополнительный взмах передних стеклоочистителей
+  <a href="#additional-sweep-of-front-windshield-wipers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Additional sweep of front windshield wipers
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    Дополнительный взмах заднего стеклоочистителя
+  <a href="#additional-rear-wiper-stroke" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Additional rear wiper stroke
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    Работа заднего стеклоочистителя при включении задней передачи
+  <a href="#rear-wiper-operation-when-reverse-gear-is-engaged" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rear wiper operation when reverse gear is engaged
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
-    Отключение заднего стеклоочистителя
+  <a href="#disabling-the-rear-wiper" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disabling the rear wiper
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
-    Изменение частоты срабатывания фароомывателей
+  <a href="#changing-the-frequency-of-operation-of-the-headlight-washers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changing the frequency of operation of the headlight washers
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_9" class="md-nav__link">
-    Отключение фароомывателей
+  <a href="#disabling-headlight-washers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disabling headlight washers
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_10" class="md-nav__link">
-    Настройка датчика света
+  <a href="#configuring-the-light-sensor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuring the light sensor
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_11" class="md-nav__link">
-    Настройка датчика дождя
+  <a href="#setting-up-the-rain-sensor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Setting up the rain sensor
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_12" class="md-nav__link">
-    Отключение датчика света
+  <a href="#disabling-the-light-sensor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disabling the light sensor
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_13" class="md-nav__link">
-    Отключение датчика дождя
+  <a href="#disabling-the-rain-sensor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disabling the rain sensor
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_14" class="md-nav__link">
-    Показания остатка места в баке на дисплее
+  <a href="#indications-of-the-remaining-space-in-the-tank-on-the-display" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Indications of the remaining space in the tank on the display
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_15" class="md-nav__link">
-    Синхронная регулировка зеркал
+  <a href="#synchronized-mirror-adjustment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Synchronized mirror adjustment
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_16" class="md-nav__link">
-    Электроскладывание зеркал
+  <a href="#power-folding-mirrors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Power folding mirrors
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_17" class="md-nav__link">
-    Опускание правого зеркала заднего вида при движении задним ходом
+  <a href="#lowering-the-right-rear-view-mirror-when-reversing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lowering the right rear view mirror when reversing
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_18" class="md-nav__link">
-    Настройка времени обогрева зеркал и заднего стекла
+  <a href="#setting-the-time-for-heated-mirrors-and-rear-window" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Setting the time for heated mirrors and rear window
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_19" class="md-nav__link">
-    Деактивация отключения обогрева зеркал и заднего стекла
+  <a href="#deactivating-the-heated-mirrors-and-rear-window" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deactivating the heated mirrors and rear window
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_20" class="md-nav__link">
-    Память рециркуляции
+  <a href="#recirculation-memory" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recirculation memory
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_21" class="md-nav__link">
-    Память подогрева передних сидений
+  <a href="#heated-front-seats-memory" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Heated front seats memory
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_22" class="md-nav__link">
-    Адаптивный подогрев передних сидений
+  <a href="#adaptive-heated-front-seats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adaptive heated front seats
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_23" class="md-nav__link">
-    Автоматическая блокировка дверей
+  <a href="#automatic-door-lock" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Automatic door lock
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_24" class="md-nav__link">
-    Автоматическая разблокировка дверей
+  <a href="#automatic-door-unlocking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Automatic door unlocking
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_25" class="md-nav__link">
-    Селективное открытие дверей
+  <a href="#selective-door-opening" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Selective door opening
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_26" class="md-nav__link">
-    Управление брелком ключа при включенном зажигании
+  <a href="#controlling-the-key-fob-with-the-ignition-on" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Controlling the key fob with the ignition on
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_27" class="md-nav__link">
-    Управление электростеклоподъемниками через кнопку на центральной консоли
+  <a href="#control-of-electric-windows-via-a-button-on-the-center-console" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Control of electric windows via a button on the center console
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_28" class="md-nav__link">
-    Работа электростеклоподъемников после открытия дверей
+  <a href="#operation-of-electric-windows-after-opening-doors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operation of electric windows after opening doors
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_29" class="md-nav__link">
-    Работа электростеклоподъемников после выключения зажигания
+  <a href="#operation-of-electric-windows-after-turning-off-the-ignition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operation of electric windows after turning off the ignition
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_30" class="md-nav__link">
-    Автоматическое закрытие стекол во время дождя
+  <a href="#automatic-closing-of-windows-when-it-rains" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Automatic closing of windows when it rains
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_31" class="md-nav__link">
-    Оповещение о не пристегнутом ремне водителя
+  <a href="#driver-seat-belt-warning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Driver seat belt warning
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_32" class="md-nav__link">
-    Изменение звука оповещения о не пристегнутом ремне водителя
+  <a href="#changing-the-sound-of-the-drivers-seat-belt-warning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changing the sound of the driver's seat belt warning
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_33" class="md-nav__link">
-    Работа клаксона на заглушенном автомобиле
+  <a href="#horn-operation-when-the-car-is-turned-off" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Horn operation when the car is turned off
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_34" class="md-nav__link">
-    Корректировка показаний спидометра
+  <a href="#adjusting-the-speedometer-readings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adjusting the speedometer readings
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_35" class="md-nav__link">
-    Корректировка показаний уровня топлива
+  <a href="#adjusting-fuel-level-readings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adjusting fuel level readings
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_36" class="md-nav__link">
-    Корректировка показаний расхода топлива и запаса хода
+  <a href="#adjusting-fuel-consumption-and-range-readings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adjusting fuel consumption and range readings
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#-" class="md-nav__link">
-    Адаптация климат-контроля
+  <a href="#climate-control-adaptation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Climate control adaptation
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_37" class="md-nav__link">
-    Отключение сигнала включения парктроника
+  <a href="#disabling-the-parking-sensor-activation-signal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disabling the parking sensor activation signal
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_38" class="md-nav__link">
-    Регулирование громкости парктроника
+  <a href="#parking-sensor-volume-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parking sensor volume control
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_39" class="md-nav__link">
-    Отключение запирания лючка бензобака
+  <a href="#disabling-the-fuel-filler-door-lock" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disabling the fuel filler door lock
+      
+    </span>
   </a>
   
 </li>
@@ -2704,459 +2317,539 @@
               </div>
             
           
-          <div class="md-content" data-md-component="content">
-            <article class="md-content__inner md-typeset">
+          
+            <div class="md-content" data-md-component="content">
               
-  
                 
-<a href="https://github.com/Kanaduchi/vwcoding/edit/master/docs/PQ35/comfort.md" title="Edit this page" class="md-content__button md-icon">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
-</a>
 
 
 
-<h1 id="_1">КОМФОРТ<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
-<h3 id="ii">Косвенный контроль давления в шинах II поколения<a class="headerlink" href="#ii" title="Permanent link">&para;</a></h3>
-<p>Косвенный контроль давления в шинах II поколения показывает изменение давления в конкретном колесе на MaxiDot. <br />
-Определение происходит на основании частоты вращения каждого колеса при условии изменения не менее 0,5 атм.  </p>
-<div class="admonition note">
-<p class="admonition-title">Особенности</p>
-<p>Не требует установки дополнительного оборудования. <br />
-Активация возможна только на автомобилях с MaxiDot, приборной панелью моделью не ниже 843 Q, ESC и наличием 18 или 19 Байта в 3 блоке.</p>
-</div>
-<p><div class="highlight"><pre><span></span><code><span class="nt">Блок 19 → список оборудования</span><span class="p">:</span><span class="w"></span>
-<span class="nt">&gt; 4C – Контроль давления в шинах II</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Активировать</span><span class="w"></span>
-<span class="nn">---</span><span class="w"></span>
-<span class="nt">Блок 17 → Кодирование → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">Байт 2 – Бит 0</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Активировать</span><span class="w"></span>
-<span class="nn">---</span><span class="w"></span>
-<span class="nt">Блок 3 → Кодирование → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">Байт 17 – Бит 2</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Активировать</span><span class="w"></span>
-</code></pre></div>
-Для блоков ABS &lt;=BL с 19 Байтами (первый «0» последний «18»)
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 3 → Кодирование → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">Байт 16 – Бит 1</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Активировать</span><span class="w"></span>
-<span class="nt">Блок 3 → Кодирование → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">Байт 16 – Бит 2</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Активировать</span><span class="w"></span>
-</code></pre></div>
-Для блоков ABS =&gt;BM с 20 Байтами (первый «0» последний «19»)
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 3 → Кодирование → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">Байт 19 – Бит 0</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Активировать</span><span class="w"></span>
-<span class="nt">Блок 3 → Кодирование → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">Байт 19 – Бит 1</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Активировать</span><span class="w"></span>
-</code></pre></div></p>
-<div class="admonition warning">
-<p class="admonition-title">Примечание</p>
-<p>После активации нужно зайти в 3 блок и очистить список ошибок.</p>
-</div>
-<h3 id="-maxidot">Круиз-контроль на MaxiDot<a class="headerlink" href="#-maxidot" title="Permanent link">&para;</a></h3>
-<p>Данная функция позволяет выводить установленное значение круиз-контроля (только когда он активен) на MaxiDot вместо значения общего пробега.</p>
-<div class="admonition note">
-<p class="admonition-title">Особенности</p>
-<p>Актуально только для Skoda Octavia A5FL 1.4 TSI.</p>
-</div>
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 17 → Адаптация</span><span class="p">:</span><span class="w"></span>
-<span class="p p-Indicator">&gt;</span><span class="err"> канал «IDE03721» → выставить значение «active» → выполнить</span><span class="w"></span>
-</code></pre></div>
-<h3 id="maxidot">Автоматический задний стеклоочиститель на MaxiDot<a class="headerlink" href="#maxidot" title="Permanent link">&para;</a></h3>
-<p>В меню MaxiDot «Комфорт и освещение» появляется возможность включать-выключать автоматический режим заднего стеклоочистителя, который заключается в срабатывании заднего стеклоочистителя 1 раз в минуту при условии, что передние работают в непрерывном режиме более 1 минуты.
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 9 → Кодирование → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">&gt; Байт 25 – Бит 0</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Активировать</span><span class="w"></span>
-</code></pre></div></p>
-<h3 id="_2">Отключение переменного положения передних стеклоочистителей<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
-<p>Для уменьшения износа резинок стеклоочистителей предусмотрено переменное положение покоя.
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 9 → Кодирование → 1 блок Wischer → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">&gt; Байт 1 – Бит 2</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Деактивировать</span><span class="w"></span>
-</code></pre></div></p>
-<h3 id="_3">Отключение зоны парковки передних стеклоочистителей<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
-<p>На время длительной стоянки (после выключения зажигания) стеклоочистители опускаются в специальное место, чуть ниже рабочей зоны.
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 9 → Кодирование → 1 блок Wischer → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">&gt; Байт 2 – Бит 5</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Деактивировать</span><span class="w"></span>
-</code></pre></div></p>
-<h3 id="_4">Дополнительный взмах передних стеклоочистителей<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
-<p>Данная функция позволяет автоматически дотирать капельки через несколько секунд после использования стеклоомывателя.  <br />
-Осторожно, в слякоть может растирать уже грязь!
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 9 → Кодирование → 1 блок Wischer → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">&gt; Байт 1 – Бит 3</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Активировать</span><span class="w"></span>
-</code></pre></div></p>
-<h3 id="_5">Дополнительный взмах заднего стеклоочистителя<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
-<p>Часто после подачи воды на заднее стекло стандартного взмаха стеклоочистителя не хватает и, буквально через 10 секунд, капельки предательски скатываются на сухое стекло. <br />
-Данная функция позволяет автоматически дотирать капельки через несколько секунд после использования стеклоомывателя.
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 9 → Кодирование → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">&gt; Байт 21 – Бит 4</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Активировать</span><span class="w"></span>
-</code></pre></div></p>
-<h3 id="_6">Работа заднего стеклоочистителя при включении задней передачи<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
-<p>По умолчанию, при активной работе стеклоочистителей под управлением датчика дождя, при включении задней передачи, задний стеклоочиститель срабатывает. <br />
-Если это не нужно (например, когда он зимой примерз), эту функцию можно отключить.
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 9 → Кодирование → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">&gt; Байт 21 – Бит 6</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Деактивировать</span><span class="w"></span>
-</code></pre></div></p>
-<h3 id="_7">Отключение заднего стеклоочистителя<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
-<p>Если кому задний стеклоочиститель мешает, то его можно совсем отключить.
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 9 → Кодирование → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">&gt; Байт 21 – Бит 0</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Деактивировать</span><span class="w"></span>
-</code></pre></div></p>
-<h3 id="_8">Изменение частоты срабатывания фароомывателей<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
-<p>Стандартная частота (каждый 5-й раз) кому-то может показаться очень частой и расточительной, поэтому можно изменить количество промежуточных включений стеклоомывателя.<br />
-Если выставлено значение «3», то срабатывать фароомыватель будет каждый 4-й раз, если значение «7» - то фароомыватель будет срабатывать каждый 8-й раз.
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 9 → Адаптация</span><span class="p">:</span><span class="w"> </span>
-<span class="p p-Indicator">&gt;</span><span class="err"> 26 канал → тест → вводим нужное значение → сохранить</span><span class="w"></span>
-</code></pre></div></p>
-<h3 id="_9">Отключение фароомывателей<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h3>
-<p>Если кто считает фароомыватели бесполезными расточителям «жижки», то их можно отключить.
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 9 → Кодирование → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">&gt; Байт 20 – Бит 5</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Деактивировать</span><span class="w"></span>
-</code></pre></div></p>
-<h3 id="_10">Настройка датчика света<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
-<p>Методом «тыка» можно оптимально настроить чувствительность датчика света.
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 9 → Кодирование → 2 блок RLS → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="p p-Indicator">&gt;</span><span class="err"> Байт 1 – Бит 0-7 → выбираем нужное значение</span><span class="w"></span>
-</code></pre></div></p>
-<h3 id="_11">Настройка датчика дождя<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
-<p>Многие жалуются на нелогичную работу датчика дождя. Так вот, методом «тыка» можно настроить его чувствительность.
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 9 → Кодирование → 2 блок RLS → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="p p-Indicator">&gt;</span><span class="err"> Байт 2 – Бит 0-7 → выбираем нужное значение</span><span class="w"></span>
-</code></pre></div></p>
-<h3 id="_12">Отключение датчика света<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h3>
-<p>Если качество работы датчика света совсем не устраивает, и подстроить его не получается, то его можно просто отключить. <br />
-Отключится датчик света в таком варианте без отключения датчика дождя, но кодировать 2 блок RLS станет невозможно.
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 9 → Кодирование → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">&gt; Байт 21 – Бит 5</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Деактивировать</span><span class="w"></span>
-</code></pre></div></p>
-<h3 id="_13">Отключение датчика дождя<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h3>
-<p>Если качество работы датчика дождя совсем не устраивает, и подстроить его не получается, то его можно просто отключить.
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 9 → Кодирование → 2 блок RLS → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">&gt; Байт 0 – Бит 5</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Активировать</span><span class="w"></span>
-</code></pre></div></p>
-<div class="admonition warning">
-<p class="admonition-title">Примечание</p>
-<p>Для полноценного отключения необходимо перезагрузить кодировки, т.е. заглушить авто, вынуть ключ и заново завести.</p>
-</div>
-<h3 id="_14">Показания остатка места в баке на дисплее<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h3>
-<p>Остаток места в баке – приблизительное значение литров, которые можно залить в бак. Шаг шкалы – 5 литров. <br />
-При полностью заправленном баке отображается «---». <br />
-Показания очень приблизительные и могут варьироваться &plusmn; 10 литров от реального состояния.  </p>
-<div class="admonition note">
-<p class="admonition-title">Особенности</p>
-<p>Актуально только для автомобилей 2012 модельного года.</p>
-</div>
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 17 → Адаптация</span><span class="p">:</span><span class="w"> </span>
-<span class="p p-Indicator">&gt;</span><span class="err"> канал «IDE04848» → выставить значение «display» / «ok» → выполнить</span><span class="w"></span>
-</code></pre></div>
-<h3 id="_15">Синхронная регулировка зеркал<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h3>
-<p>Если нет MaxiDot, то синхронная или раздельная регулировка зеркал настраивается только так. <br />
-Если нужна раздельная регулировка зеркал, то эту функцию можно отключить.
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 9 → Кодирование → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">&gt; Байт 8 – Бит 6</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Деактивировать</span><span class="w"></span>
-</code></pre></div></p>
-<h3 id="_16">Электроскладывание зеркал<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h3>
-<p>Если вдруг кому-то нужно отключить функцию электроскладывания зеркал, то значение «4096» нужно отнимать от текущего значения, соответственно, если нужно функцию включить, то значение «4096» прибавляется к текущему.</p>
-<div class="admonition note">
-<p class="admonition-title">Особенности</p>
-<p>Электроскладывание зеркал таким методом отключается в принципе, т.е. не работает ни ссигнализации, ни с брелка, ни с джойстика управления зеркалами.</p>
-</div>
-<div class="highlight"><pre><span></span><code><span class="l l-Scalar l-Scalar-Plain">Блок 42 → Кодирование → 1 поле → выставляем нужное значение → выполнить</span><span class="w"></span>
-<span class="l l-Scalar l-Scalar-Plain">Блок 52 → Кодирование → 1 поле → выставляем нужное значение → выполнить</span><span class="w"></span>
-</code></pre></div>
-<h3 id="_17">Опускание правого зеркала заднего вида при движении задним ходом<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h3>
-<p>При включении задней передачи, правое зеркало заднего вида опускается в нижнее положение, для лучшего обзора зоны парковки в районе заднего правого колеса.<br />
-Возвращается зеркало в исходное положение при выключении зажигания или движении вперед на скорости свыше 20 км/ч.</p>
-<div class="admonition note">
-<p class="admonition-title">Особенности</p>
-<p>Только для зеркал с электроприводом и наличием длинного кодирования в 52 блоке.</p>
-</div>
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 9 → Кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">Байт 4 – Бит 3</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Активировать</span><span class="w"></span>
-<span class="nt">Блок 52 → Кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">Байт 4 – Бит 2</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Активировать</span><span class="w"></span>
-</code></pre></div>
-<h3 id="_18">Настройка времени обогрева зеркал и заднего стекла<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h3>
-<p>В северных регионах стандартных 10 минут обогрева может не хватить, тогда время обогрева можно увеличить (ну или уменьшить, если кому надо).</p>
-<div class="admonition note">
-<p class="admonition-title">Особенности</p>
-<p>Нужное значение рассчитывается по формуле: значение = время (в секундах) / 40. <br />
-То есть, если нужно выставить время обогрева равное 20 минутам, то 1200 / 40 = 30, вводим значение «30».<br />
-Вводить нужно только целые значения!</p>
-</div>
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 9 → Адаптация</span><span class="p">:</span><span class="w"> </span>
-<span class="p p-Indicator">&gt;</span><span class="err"> 25 канал → тест → вводим нужное значение → сохранить</span><span class="w"></span>
-</code></pre></div>
-<div class="admonition warning">
-<p class="admonition-title">Примечание</p>
-<p>По умолчанию стоит значение «15». Если нет необходимости, то не стоит злоупотреблять временем обогрева, т.к. стекла и предохранители могут не осилить долгого времени работы обогрева.</p>
-</div>
-<h3 id="_19">Деактивация отключения обогрева зеркал и заднего стекла<a class="headerlink" href="#_19" title="Permanent link">&para;</a></h3>
-<p>Возможно, кому-то автоматическое отключение обогрева зеркал и заднего стекла не нужно.
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 9 → Адаптация</span><span class="p">:</span><span class="w"> </span>
-<span class="p p-Indicator">&gt;</span><span class="err"> 25 канал → тест → вводим «254» → сохранить</span><span class="w"></span>
-</code></pre></div></p>
-<h3 id="_20">Память рециркуляции<a class="headerlink" href="#_20" title="Permanent link">&para;</a></h3>
-<p>Функция позволяет зафиксировать состояние рециркуляции салонного обдува. Очень полезно зимой на автомобилях с автозапуском.</p>
-<div class="admonition note">
-<p class="admonition-title">Особенности</p>
-<p>Включается только на версиях ПО не ниже 0709. Также может быть ограничение функционала постарым версиям VCDS.</p>
-</div>
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 8 → Кодирование → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">&gt; Байт 2 – Бит 0</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Активировать</span><span class="w"></span>
-</code></pre></div>
-<h3 id="_21">Память подогрева передних сидений<a class="headerlink" href="#_21" title="Permanent link">&para;</a></h3>
-<p>Функция позволяет зафиксировать состояние подогрева передних сидений. Очень полезно зимой на автомобилях с автозапуском.</p>
-<div class="admonition note">
-<p class="admonition-title">Особенности</p>
-<p>Память подогрева пассажирского сидения включается только на автомобилях 2013 модельного года (точно работает на блоках 3T0 907 044 BS), гарантировано на версиях программы не ниже 12.12. 
-По версиям ПО блоков может быть ограничение по активации пассажирского сиденья.<br />
-Есть три варианта: «not active» — не активно, «active» — активно, «active for 10 minutes» — подогрев работает только в течение 10 минут.</p>
-</div>
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 8 → Адаптация</span><span class="p">:</span><span class="w"> </span>
-<span class="p p-Indicator">&gt;</span><span class="err"> канал «IDE01067» → выбираем нужное значение → выполнить</span><span class="w"></span>
-<span class="p p-Indicator">&gt;</span><span class="err"> канал «IDE07948» → выбираем нужное значение → выполнить</span><span class="w"></span>
-</code></pre></div>
-<div class="admonition warning">
-<p class="admonition-title">Примечание</p>
-<p>Первая кодировка активирует память водительского сидения, вторая - память пассажирского.</p>
-</div>
-<h3 id="_22">Адаптивный подогрев передних сидений<a class="headerlink" href="#_22" title="Permanent link">&para;</a></h3>
-<p>Функция автоматически снижает уровень обогрева передних сидений по достижении определенного уровня прогрева, т.е. при выставленном максимуме, через какое-то время автоматически уменьшается интенсивность обогрева, дабы не «поджарить булочки».
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 8 → Адаптация</span><span class="p">:</span><span class="w"> </span>
-<span class="p p-Indicator">&gt;</span><span class="err"> канал «IDE07947» → выбираем «active» → выполнить</span><span class="w"></span>
-</code></pre></div></p>
-<h3 id="_23">Автоматическая блокировка дверей<a class="headerlink" href="#_23" title="Permanent link">&para;</a></h3>
-<p>При достижении скорости 15 км/ч, с помощью данной функции двери будут автоматически заблокированы.
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 9 → Кодирование → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">&gt; Байт 0 – Бит 2</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Активировать</span><span class="w"></span>
-</code></pre></div></p>
-<h3 id="_24">Автоматическая разблокировка дверей<a class="headerlink" href="#_24" title="Permanent link">&para;</a></h3>
-<p>Данная функция автоматически разблокирует двери, если вынуть ключ из замка зажигания.
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 9 → Кодирование → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">&gt; Байт 0 – Бит 1</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Активировать</span><span class="w"></span>
-</code></pre></div></p>
-<h3 id="_25">Селективное открытие дверей<a class="headerlink" href="#_25" title="Permanent link">&para;</a></h3>
-<p>Селективное открытие дверей позволяет одним нажатием на кнопку разблокировки дверей открыть только водительскую дверь, вторым нажатием – все остальные.
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 9 → Кодирование → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">&gt; Байт 0 – Бит 3</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Активировать</span><span class="w"></span>
-</code></pre></div></p>
-<h3 id="_26">Управление брелком ключа при включенном зажигании<a class="headerlink" href="#_26" title="Permanent link">&para;</a></h3>
-<p>По умолчанию управление блокировкой дверей и стеклоподъемниками при включенном зажигании с брелка ключа не возможно. <br />
-Данная функция позволяет управлять функциями комфорта с брелка ключа даже когда двигатель запущен.
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 9 → Кодирование → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">&gt; Байт 4 – Бит 2</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Активировать</span><span class="w"></span>
-</code></pre></div></p>
-<h3 id="_27">Управление электростеклоподъемниками через кнопку на центральной консоли<a class="headerlink" href="#_27" title="Permanent link">&para;</a></h3>
-<p>По умолчанию при удержании кнопки открытия / закрытия дверей на центральной консоли происходит опускание / подъем боковых стекол. <br />
-Для каких-либо целей эту функцию можно отключить.
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 9 → Кодирование → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">&gt; Байт 3 – Бит 7</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Деактивировать</span><span class="w"></span>
-</code></pre></div></p>
-<h3 id="_28">Работа электростеклоподъемников после открытия дверей<a class="headerlink" href="#_28" title="Permanent link">&para;</a></h3>
-<p>По умолчанию при вынутом ключе из замка зажигания и при первом открытии дверей из салона можно управлять электростеклоподъемниками (и люком), как только двери закрыть, то управление отключается.<br />
-Отключение данной функции позволяет разблокировать работу электростеклоподъемников при открытии дверей.
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 9 → Кодирование → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">&gt; Байт 4 – Бит 4</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Активировать</span><span class="w"></span>
-</code></pre></div></p>
-<h3 id="_29">Работа электростеклоподъемников после выключения зажигания<a class="headerlink" href="#_29" title="Permanent link">&para;</a></h3>
-<p>По умолчанию при выключении зажигания из салона можно управлять электростеклоподъемниками (и люком).<br />
-Отключение данной функции позволяет заблокировать работу электростеклоподъемников при выключении зажигания.
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 9 → Кодирование → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">&gt; Байт 4 – Бит 7</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Деактивировать</span><span class="w"></span>
-</code></pre></div></p>
-<h3 id="_30">Автоматическое закрытие стекол во время дождя<a class="headerlink" href="#_30" title="Permanent link">&para;</a></h3>
-<p>Если автомобиль остался стоять с опущенными стеклами и пошел дождь, то данная функция при помощи датчика дождя автоматически закроет стекла, чтобы дождь не намочил салон.
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 9 → Кодирование → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">&gt; Байт 4 – Бит 6</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Активировать</span><span class="w"></span>
-</code></pre></div></p>
-<h3 id="_31">Оповещение о не пристегнутом ремне водителя<a class="headerlink" href="#_31" title="Permanent link">&para;</a></h3>
-<p>По умолчанию на некоторых автомобилях (в зависимости от комплектации) включен контроль ремня водителя. Если кто любит кататься без ремня безопасности, эту функцию можно отключить.
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 17 → Кодирование → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">&gt; Байт 1 – Бит 1</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Деактивировать</span><span class="w"></span>
-</code></pre></div></p>
-<h3 id="_32">Изменение звука оповещения о не пристегнутом ремне водителя<a class="headerlink" href="#_32" title="Permanent link">&para;</a></h3>
-<p>По умолчанию на некоторых автомобилях (в зависимости от комплектации) включен контроль ремня водителя.<br />
-Если кто любит кататься без ремня безопасности, эту функцию можно отключить.</p>
-<div class="admonition note">
-<p class="admonition-title">Особенности</p>
-<p>Значение 4 – стандарт, 1 – непрерывный сигнал в течение полутора минут</p>
-</div>
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 17 → Адаптация</span><span class="p">:</span><span class="w"> </span>
-<span class="p p-Indicator">&gt;</span><span class="err"> канал «IDE00344» → выбираем нужное значение → выполнить</span><span class="w"></span>
-</code></pre></div>
-<h3 id="_33">Работа клаксона на заглушенном автомобиле<a class="headerlink" href="#_33" title="Permanent link">&para;</a></h3>
-<p>По умолчанию клаксон работает только при включенном зажигании или запущенном двигателе.<br />
-Этой кодировкой можно включить работу клаксона даже на заглушенном автомобиле при вынутом ключе.
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 16 → Кодирование → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">&gt; Байт 2 – Бит 2</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Деактивировать</span><span class="w"></span>
-</code></pre></div></p>
-<div class="admonition warning">
-<p class="admonition-title">Примечание</p>
-<p>Даже если кодировка удачно запишется, еще не факт, что функция будет работать, т.к. подходит только для единичных экземпляров авто.</p>
-</div>
-<h3 id="_34">Корректировка показаний спидометра<a class="headerlink" href="#_34" title="Permanent link">&para;</a></h3>
-<p>В соответствии с нормами безопасности показания спидометра слегка завышены относительно реальной скорости.<br />
-Для разных автомобилей предусмотрены различные уровни завышения показаний.</p>
-<div class="admonition note">
-<p class="admonition-title">Особенности</p>
-<p>Число импульсов от Skoda Octavia (01) завышает показание при 100 км/ч ≈ на 8 км/ч, от Skoda Fabia (02) - ≈ на 15 км/ч.<br />
-Самое точное показание достигается при установке числа импульсов от VW Golf (07), но это значение может прописаться не на всех блоках.</p>
-</div>
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 17 → Кодирование → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="p p-Indicator">&gt;</span><span class="err"> Байт 0 – Бит 0-3 → меняем нужное значение</span><span class="w"></span>
-</code></pre></div>
-<h3 id="_35">Корректировка показаний уровня топлива<a class="headerlink" href="#_35" title="Permanent link">&para;</a></h3>
-<p>Датчик уровня топлива в баке имеет некую погрешность, из-за чего неточность в показаниях может достигать &plusmn; 10 литров.<br />
-Методом «тыка» можно подобрать значение, при котором погрешность будет минимальной.
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 17 → Адаптация</span><span class="p">:</span><span class="w"> </span>
-<span class="p p-Indicator">&gt;</span><span class="err"> канал «IDE00493» → Подбираем нужное значение → выполнить</span><span class="w"></span>
-</code></pre></div></p>
-<h3 id="_36">Корректировка показаний расхода топлива и запаса хода<a class="headerlink" href="#_36" title="Permanent link">&para;</a></h3>
-<p>Корректировка в мозгах вычислений расхода топлива и соответствующего запаса хода в %.
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 17 → Адаптация</span><span class="p">:</span><span class="w"> </span>
-<span class="p p-Indicator">&gt;</span><span class="err"> канал «IDE00499» → Подбираем нужное значение → выполнить</span><span class="w"></span>
-</code></pre></div></p>
-<h3 id="-">Адаптация климат-контроля<a class="headerlink" href="#-" title="Permanent link">&para;</a></h3>
-<p>Данная адаптация по очереди открывает-закрывает все заслонки и шевелит всеми внутренностями климат-контроля, проверяет состояние всех кнопок и контрольных ламп и совершает прочие манипуляция, позволяющие расшевелить замерзший или застоявшийся климат-контроль.<br />
-Вся процедура занимает менее 1 минуты.
-<div class="highlight"><pre><span></span><code><span class="l l-Scalar l-Scalar-Plain">Блок 8 → 04 – Базовые параметры →</span><span class="w"> </span>
-<span class="l l-Scalar l-Scalar-Plain">&gt; канал «IDE01546» → прочитать → ждем статуса «Успешно завершено»</span><span class="w"></span>
-</code></pre></div></p>
-<h3 id="_37">Отключение сигнала включения парктроника<a class="headerlink" href="#_37" title="Permanent link">&para;</a></h3>
-<p>При включении задней передачи, а ровно включении парктроника, раздается продолжительный сигнал.  Это можно отключить, если кому надо.
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 10 → Адаптация</span><span class="p">:</span><span class="w"> </span>
-<span class="nt">&gt; канал «IDE01165»</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Деактивировать</span><span class="w"></span>
-</code></pre></div></p>
-<h3 id="_38">Регулирование громкости парктроника<a class="headerlink" href="#_38" title="Permanent link">&para;</a></h3>
-<p>Громкость сигнала парктроника, транслируемого через задний динамик, можно отрегулировать.
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 10 → Адаптация</span><span class="p">:</span><span class="w"> </span>
-<span class="p p-Indicator">&gt;</span><span class="err"> канал «MAS01426» → выставляем нужную ступень</span><span class="w"></span>
-</code></pre></div></p>
-<h3 id="_39">Отключение запирания лючка бензобака<a class="headerlink" href="#_39" title="Permanent link">&para;</a></h3>
-<p>Лючок бензобака при постановке на охрану блокируется металлическим штоком, который в зимний период может замерзнуть и отказаться открывать этот самый лючок.
-<div class="highlight"><pre><span></span><code><span class="nt">Блок 9 → Кодирование → Длинное кодирование</span><span class="p">:</span><span class="w"></span>
-<span class="nt">&gt; Байт 7 – Бит 5</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Активировать</span><span class="w"></span>
-</code></pre></div></p>
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../" class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Coding of VW cars
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    PQ35
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
 
               
+              <article class="md-content__inner md-typeset">
+                
+  
+                  
 
-  <!-- Inject Disqus into current page -->
+
+  
+    <a href="https://github.com/Kanaduchi/vwcoding/edit/master/docs/PQ35/comfort.en.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
   
   
+    
+      
+    
+    <a href="https://github.com/Kanaduchi/vwcoding/raw/master/docs/PQ35/comfort.en.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
+  
+
+
+<h1 id="comfort">COMFORT<a class="headerlink" href="#comfort" title="Permanent link">&para;</a></h1>
+<h3 id="indirect-tire-pressure-control-generation-ii">Indirect tire pressure control generation II<a class="headerlink" href="#indirect-tire-pressure-control-generation-ii" title="Permanent link">&para;</a></h3>
+<p>Indirect tire pressure monitoring of the 2<sup>nd</sup> generation shows the change in pressure in a specific wheel on MaxiDot.<br />
+The determination is based on the rotation speed of each wheel, subject to a change of at least 0.5 atm.  </p>
+<div class="admonition note">
+<p class="admonition-title">Features</p>
+<p>Does not require installation of additional equipment.<br />
+Activation is only possible on cars with MaxiDot, a dashboard model no lower than 843 Q, ESC and the presence of 18 or 19 Bytes in block 3.</p>
+</div>
+<div class="highlight"><pre><span></span><code><span class="nt">Block 19 → equipment list</span><span class="p">:</span>
+<span class="nt">4C – Tire pressure monitoring II</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Activate</span>
+<span class="nn">---</span>
+<span class="nt">Block 17 → Coding → Long coding</span><span class="p">:</span>
+<span class="nt">Byte 2 – Bit 0</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Activate</span>
+<span class="nn">---</span>
+<span class="nt">Block 3 → Coding → Long coding</span><span class="p">:</span>
+<span class="nt">Byte 17 – Bit 2</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Activate</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>After activation, you need to go to block 3 and clear the list of errors.
+</code></pre></div>
+<p><code>yaml
+Block 3 → Coding → Long coding:
+Byte 16 – Bit 1: Activate
+Block 3 → Coding → Long coding:
+Byte 16 – Bit 2: Activate</code></p>
+<p>For ABS =&gt;BM blocks with 20 Bytes (first “0” last “19”)
+<div class="highlight"><pre><span></span><code><span class="nt">Block 3 → Coding → Long coding</span><span class="p">:</span>
+<span class="nt">Byte 19 – Bit 0</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Activate</span>
+<span class="nt">Block 3 → Coding → Long coding</span><span class="p">:</span>
+<span class="nt">Byte 19 – Bit 1</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Activate</span>
+</code></pre></div></p>
+<div class="admonition warning">
+<p class="admonition-title">Note</p>
+<p>After activation, you need to go to block 3 and clear the list of errors.</p>
+</div>
+<h3 id="cruise-control-on-maxidot">Cruise control on MaxiDot<a class="headerlink" href="#cruise-control-on-maxidot" title="Permanent link">&para;</a></h3>
+<p>This function allows you to display the set value of the cruise control (only when it is active) on the MaxiDot instead of the total mileage value.</p>
+<div class="admonition note">
+<p class="admonition-title">Features</p>
+<p>Valid only for Škoda Octavia A5FL 1.4 TSI.</p>
+</div>
+<div class="highlight"><pre><span></span><code><span class="nt">Block 17 → Adaptation</span><span class="p">:</span>
+<span class="l l-Scalar l-Scalar-Plain">channel “IDE03721” → set value “active” → execute</span>
+</code></pre></div>
+<h3 id="automatic-rear-wiper-on-maxidot">Automatic rear wiper on MaxiDot<a class="headerlink" href="#automatic-rear-wiper-on-maxidot" title="Permanent link">&para;</a></h3>
+<p>In the MaxiDot “Comfort and Lighting” menu, it becomes possible to turn on/off the automatic rear wiper mode, which consists of activating the rear wiper once a minute, provided that the front wipers operate continuously for more than 1 minute.
+<div class="highlight"><pre><span></span><code><span class="nt">Block 09 → Coding → Long coding</span><span class="p">:</span>
+<span class="nt">Byte 25 – Bit 0</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Activate</span>
+</code></pre></div></p>
+<h3 id="disabling-the-variable-position-of-the-front-windshield-wipers">Disabling the variable position of the front windshield wipers<a class="headerlink" href="#disabling-the-variable-position-of-the-front-windshield-wipers" title="Permanent link">&para;</a></h3>
+<p>To reduce wear on the wiper rubber bands, a variable rest position is provided.
+<div class="highlight"><pre><span></span><code><span class="nt">Block 09 → Coding → 1 block Wischer → Long coding</span><span class="p">:</span>
+<span class="nt">Byte 1 – Bit 2</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Deactivate</span>
+</code></pre></div></p>
+<h3 id="disable-the-front-wiper-parking-zone">Disable the front wiper parking zone<a class="headerlink" href="#disable-the-front-wiper-parking-zone" title="Permanent link">&para;</a></h3>
+<p>During long-term parking (after turning off the ignition), the windshield wipers are lowered to a special place, just below the working area.
+<div class="highlight"><pre><span></span><code><span class="nt">Block 09 → Coding → 1 block Wischer → Long coding</span><span class="p">:</span>
+<span class="nt">Byte 2 – Bit 5</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Deactivate</span>
+</code></pre></div></p>
+<h3 id="additional-sweep-of-front-windshield-wipers">Additional sweep of front windshield wipers<a class="headerlink" href="#additional-sweep-of-front-windshield-wipers" title="Permanent link">&para;</a></h3>
+<p>This function allows you to automatically wipe off droplets a few seconds after using the windshield washer.<br />
+Be careful, dirt can be rubbed into the slush!
+<div class="highlight"><pre><span></span><code><span class="nt">Block 09 → Coding → 1 block Wischer → Long coding</span><span class="p">:</span>
+<span class="nt">Byte 1 – Bit 3</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Activate</span>
+</code></pre></div></p>
+<h3 id="additional-rear-wiper-stroke">Additional rear wiper stroke<a class="headerlink" href="#additional-rear-wiper-stroke" title="Permanent link">&para;</a></h3>
+<p>Often, after applying water to the rear window, a standard wave of the windshield wiper is not enough and, literally after 10 seconds, the droplets treacherously roll onto the dry glass.<br />
+This function allows you to automatically wipe off droplets a few seconds after using the windshield washer.
+<div class="highlight"><pre><span></span><code><span class="nt">Block 09 → Coding → Long coding</span><span class="p">:</span>
+<span class="nt">Byte 21 – Bit 4</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Activate</span>
+</code></pre></div></p>
+<h3 id="rear-wiper-operation-when-reverse-gear-is-engaged">Rear wiper operation when reverse gear is engaged<a class="headerlink" href="#rear-wiper-operation-when-reverse-gear-is-engaged" title="Permanent link">&para;</a></h3>
+<p>By default, when the windshield wipers are actively operating under the control of the rain sensor, when reverse gear is engaged, the rear wiper is activated.<br />
+If this is not needed (for example, when it is frozen in winter), this function can be disabled.
+<div class="highlight"><pre><span></span><code><span class="nt">Block 09 → Coding → Long coding</span><span class="p">:</span>
+<span class="nt">Byte 21 – Bit 6</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Deactivate</span>
+</code></pre></div></p>
+<h3 id="disabling-the-rear-wiper">Disabling the rear wiper<a class="headerlink" href="#disabling-the-rear-wiper" title="Permanent link">&para;</a></h3>
+<p>If the rear windshield wiper bothers anyone, you can turn it off completely.
+<div class="highlight"><pre><span></span><code><span class="nt">Block 09 → Coding → Long coding</span><span class="p">:</span>
+<span class="nt">Byte 21 – Bit 0</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Deactivate</span>
+</code></pre></div></p>
+<h3 id="changing-the-frequency-of-operation-of-the-headlight-washers">Changing the frequency of operation of the headlight washers<a class="headerlink" href="#changing-the-frequency-of-operation-of-the-headlight-washers" title="Permanent link">&para;</a></h3>
+<p>The standard frequency (every 5<sup>th</sup> time) may seem very frequent and wasteful to some, so you can change the number of intermediate windshield washer activations.<br />
+If the value is “3”, then the headlight washer will work every 4<sup>th</sup> time, if the value is “7”, then the headlight washer will work every 8<sup>th</sup> time.
+<div class="highlight"><pre><span></span><code><span class="nt">Block 09 → Adaptation</span><span class="p">:</span><span class="w"> </span>
+<span class="l l-Scalar l-Scalar-Plain">26 channel → test → enter the required value → save</span>
+</code></pre></div></p>
+<h3 id="disabling-headlight-washers">Disabling headlight washers<a class="headerlink" href="#disabling-headlight-washers" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="nt">Block 09 → Coding → Long coding</span><span class="p">:</span>
+<span class="nt">Byte 20 – Bit 5</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Deactivate</span>
+</code></pre></div>
+<h3 id="configuring-the-light-sensor">Configuring the light sensor<a class="headerlink" href="#configuring-the-light-sensor" title="Permanent link">&para;</a></h3>
+<p>You can optimally adjust the sensitivity of the light sensor.
+<div class="highlight"><pre><span></span><code><span class="nt">Block 09 → Coding → 2 block RLS → Long coding</span><span class="p">:</span>
+<span class="l l-Scalar l-Scalar-Plain">Byte 1 – Bit 0-7 → select the desired value</span>
+</code></pre></div></p>
+<h3 id="setting-up-the-rain-sensor">Setting up the rain sensor<a class="headerlink" href="#setting-up-the-rain-sensor" title="Permanent link">&para;</a></h3>
+<p>You can adjust its sensitivity.
+<div class="highlight"><pre><span></span><code><span class="nt">Block 09 → Coding → 2 block RLS → Long coding</span><span class="p">:</span>
+<span class="l l-Scalar l-Scalar-Plain">Byte 2 – Bit 0-7 → select the desired value</span>
+</code></pre></div></p>
+<h3 id="disabling-the-light-sensor">Disabling the light sensor<a class="headerlink" href="#disabling-the-light-sensor" title="Permanent link">&para;</a></h3>
+<p>If the quality of the light sensor is not at all satisfactory, and it is not possible to adjust it, then you can simply turn it off.<br />
+The light sensor will turn off in this version without turning off the rain sensor, but it will become impossible to encode RLS block 2.
+<div class="highlight"><pre><span></span><code><span class="nt">Block 09 → Coding → Long coding</span><span class="p">:</span>
+<span class="nt">Byte 21 – Bit 5</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Deactivate</span>
+</code></pre></div></p>
+<h3 id="disabling-the-rain-sensor">Disabling the rain sensor<a class="headerlink" href="#disabling-the-rain-sensor" title="Permanent link">&para;</a></h3>
+<p>If the quality of operation of the rain sensor is not at all satisfactory, and it is not possible to adjust it, then you can simply turn it off.
+<div class="highlight"><pre><span></span><code><span class="nt">Block 09 → Coding → 2 block RLS → Long coding</span><span class="p">:</span>
+<span class="nt">Byte 0 – Bit 5</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Activate</span>
+</code></pre></div></p>
+<div class="admonition warning">
+<p class="admonition-title">Note</p>
+<p>To completely disable it, you need to reload the encodings, i.e. Turn off the car, remove the key and start it again.</p>
+</div>
+<h3 id="indications-of-the-remaining-space-in-the-tank-on-the-display">Indications of the remaining space in the tank on the display<a class="headerlink" href="#indications-of-the-remaining-space-in-the-tank-on-the-display" title="Permanent link">&para;</a></h3>
+<p>The remaining space in the tank is the approximate value of liters that can be filled into the tank. The scale step is 5 liters.<br />
+When the tank is fully filled, “---” is displayed.<br />
+The readings are very approximate and may vary &plusmn; 10 liters from the actual condition.  </p>
+<div class="admonition note">
+<p class="admonition-title">Features</p>
+<p>Valid only for vehicles of the 2012 model year.</p>
+</div>
+<div class="highlight"><pre><span></span><code><span class="nt">Block 17 → Adaptation</span><span class="p">:</span><span class="w"> </span>
+<span class="l l-Scalar l-Scalar-Plain">channel “IDE04848” → set value “display” / “ok” → execute</span>
+</code></pre></div>
+<h3 id="synchronized-mirror-adjustment">Synchronized mirror adjustment<a class="headerlink" href="#synchronized-mirror-adjustment" title="Permanent link">&para;</a></h3>
+<p>If there is no MaxiDot, then synchronous or separate adjustment of mirrors is configured only this way.<br />
+If you need separate adjustment of the mirrors, this function can be disabled.
+<div class="highlight"><pre><span></span><code><span class="nt">Block 09 → Coding → Long coding</span><span class="p">:</span>
+<span class="nt">Byte 8 – Bit 6</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Deactivate</span>
+</code></pre></div></p>
+<h3 id="power-folding-mirrors">Power folding mirrors<a class="headerlink" href="#power-folding-mirrors" title="Permanent link">&para;</a></h3>
+<p>If suddenly someone needs to disable the function of electric folding mirrors, then the value “4096” must be subtracted from the current value, respectively, if you need to enable the function, then the value “4096” must be added to the current one.</p>
+<div class="admonition note">
+<p class="admonition-title">Features</p>
+<p>This method disables the electric folding of mirrors in principle, i.e. Neither the alarm system nor the key fob nor the joystick for controlling the mirrors works.</p>
+</div>
+<div class="highlight"><pre><span></span><code><span class="l l-Scalar l-Scalar-Plain">Block 42 → Coding → 1 field → set the desired value → execute</span>
+<span class="l l-Scalar l-Scalar-Plain">Block 52 → Coding → 1 field → set the desired value → execute</span>
+</code></pre></div>
+<h3 id="lowering-the-right-rear-view-mirror-when-reversing">Lowering the right rear view mirror when reversing<a class="headerlink" href="#lowering-the-right-rear-view-mirror-when-reversing" title="Permanent link">&para;</a></h3>
+<p>When reverse gear is engaged, the right rear view mirror lowers to the lower position for a better view of the parking area in the area of the rear right wheel.<br />
+The mirror returns to its original position when the ignition is turned off or when moving forward at a speed above 20 km/h.</p>
+<div class="admonition note">
+<p class="admonition-title">Features</p>
+<p>Only for electric mirrors with long coding in block 52.</p>
+</div>
+<div class="highlight"><pre><span></span><code><span class="nt">Block 09 → Coding</span><span class="p">:</span>
+<span class="nt">Byte 4 – Bit 3</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Activate</span>
+<span class="nt">Block 52 → Coding</span><span class="p">:</span>
+<span class="nt">Byte 4 – Bit 2</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Activate</span>
+</code></pre></div>
+<h3 id="setting-the-time-for-heated-mirrors-and-rear-window">Setting the time for heated mirrors and rear window<a class="headerlink" href="#setting-the-time-for-heated-mirrors-and-rear-window" title="Permanent link">&para;</a></h3>
+<p>In the northern regions, the standard 10 minutes of heating may not be enough, then the heating time can be increased (or reduced, if anyone needs it).</p>
+<div class="admonition note">
+<p class="admonition-title">Features</p>
+<p>The required value is calculated using the formula: value = time (in seconds) / 40.<br />
+That is, if you need to set the heating time to 20 minutes, then 1200 / 40 = 30, enter the value “30”.<br />
+You only need to enter whole values!</p>
+</div>
+<div class="highlight"><pre><span></span><code><span class="nt">Block 09 → Adaptation</span><span class="p">:</span><span class="w"> </span>
+<span class="l l-Scalar l-Scalar-Plain">25 channel → test → enter the required value → save</span>
+</code></pre></div>
+<div class="admonition warning">
+<p class="admonition-title">Note</p>
+<p>The default value is “15”. If there is no need, then you should not abuse the heating time, because... glass and fuses may not be able to handle the heating for a long time.</p>
+</div>
+<h3 id="deactivating-the-heated-mirrors-and-rear-window">Deactivating the heated mirrors and rear window<a class="headerlink" href="#deactivating-the-heated-mirrors-and-rear-window" title="Permanent link">&para;</a></h3>
+<p>Perhaps some people do not need automatic shutdown of the heated mirrors and rear window.
+<div class="highlight"><pre><span></span><code><span class="nt">Block 09 → Adaptation</span><span class="p">:</span><span class="w"> </span>
+<span class="l l-Scalar l-Scalar-Plain">25 channel → test → enter “254” → save</span>
+</code></pre></div></p>
+<h3 id="recirculation-memory">Recirculation memory<a class="headerlink" href="#recirculation-memory" title="Permanent link">&para;</a></h3>
+<p>The function allows you to record the state of interior airflow recirculation. Very useful in winter on cars with automatic start.</p>
+<div class="admonition note">
+<p class="admonition-title">Features</p>
+<p>Enabled only on software versions not lower than 0709. There may also be limited functionality in older versions of VCDS.</p>
+</div>
+<div class="highlight"><pre><span></span><code><span class="nt">Block 8 → Coding → Long coding</span><span class="p">:</span>
+<span class="nt">Byte 2 – Bit 0</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Activate</span>
+</code></pre></div>
+<h3 id="heated-front-seats-memory">Heated front seats memory<a class="headerlink" href="#heated-front-seats-memory" title="Permanent link">&para;</a></h3>
+<p>The function allows you to record the state of the heated front seats. Very useful in winter on cars with automatic start.</p>
+<div class="admonition note">
+<p class="admonition-title">Features</p>
+<p>The passenger seat heating memory is activated only on cars of the 2013 model year (it works exactly on 3T0 907 044 BS units), guaranteed on program versions not lower than 12.12. 
+According to the software versions of the units, there may be a restriction on activating the passenger seat.<br />
+There are three options: “not active” - not active, “active” - active, “active for 10 minutes” - heating only works for 10 minutes.</p>
+</div>
+<div class="highlight"><pre><span></span><code><span class="nt">Block 8 → Adaptation</span><span class="p">:</span><span class="w"> </span>
+<span class="l l-Scalar l-Scalar-Plain">channel “IDE01067” → select the desired value → execute</span>
+<span class="l l-Scalar l-Scalar-Plain">channel “IDE07948” → select the desired value → execute</span>
+</code></pre></div>
+<div class="admonition warning">
+<p class="admonition-title">Note</p>
+<p>The first encoding activates the memory of the driver's seat, the second – the memory of the passenger seat.</p>
+</div>
+<h3 id="adaptive-heated-front-seats">Adaptive heated front seats<a class="headerlink" href="#adaptive-heated-front-seats" title="Permanent link">&para;</a></h3>
+<p>The function automatically reduces the heating level of the front seats when a certain heating level is reached, i.e. when the maximum is set, after some time the heating intensity is automatically reduced so as not to “fry the buns”.
+<div class="highlight"><pre><span></span><code><span class="nt">Block 8 → Adaptation</span><span class="p">:</span><span class="w"> </span>
+<span class="l l-Scalar l-Scalar-Plain">channel “IDE07947” → select “active” → execute</span>
+</code></pre></div></p>
+<h3 id="automatic-door-lock">Automatic door lock<a class="headerlink" href="#automatic-door-lock" title="Permanent link">&para;</a></h3>
+<p>When the speed reaches 15 km/h, the doors will be automatically locked using this function.
+<div class="highlight"><pre><span></span><code><span class="nt">Block 09 → Coding → Long coding</span><span class="p">:</span>
+<span class="nt">Byte 0 – Bit 2</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Activate</span>
+</code></pre></div></p>
+<h3 id="automatic-door-unlocking">Automatic door unlocking<a class="headerlink" href="#automatic-door-unlocking" title="Permanent link">&para;</a></h3>
+<p>This feature automatically unlocks the doors when the key is removed from the ignition.
+<div class="highlight"><pre><span></span><code><span class="nt">Block 09 → Coding → Long coding</span><span class="p">:</span>
+<span class="nt">Byte 0 – Bit 1</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Activate</span>
+</code></pre></div></p>
+<h3 id="selective-door-opening">Selective door opening<a class="headerlink" href="#selective-door-opening" title="Permanent link">&para;</a></h3>
+<p>Selective door opening allows you to open only the driver's door with one press of the door unlock button, and all the others with a second press.
+<div class="highlight"><pre><span></span><code><span class="nt">Block 09 → Coding → Long coding</span><span class="p">:</span>
+<span class="nt">Byte 0 – Bit 3</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Activate</span>
+</code></pre></div></p>
+<h3 id="controlling-the-key-fob-with-the-ignition-on">Controlling the key fob with the ignition on<a class="headerlink" href="#controlling-the-key-fob-with-the-ignition-on" title="Permanent link">&para;</a></h3>
+<p>By default, it is not possible to control door locks and power windows with the ignition on using the key fob.<br />
+This function allows you to control comfort functions from the key fob even when the engine is running.
+<div class="highlight"><pre><span></span><code><span class="nt">Block 09 → Coding → Long coding</span><span class="p">:</span>
+<span class="nt">Byte 4 – Bit 2</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Activate</span>
+</code></pre></div></p>
+<h3 id="control-of-electric-windows-via-a-button-on-the-center-console">Control of electric windows via a button on the center console<a class="headerlink" href="#control-of-electric-windows-via-a-button-on-the-center-console" title="Permanent link">&para;</a></h3>
+<p>By default, holding down the door open/close button on the center console lowers/raises the side windows.<br />
+This feature can be disabled for any purpose.
+<div class="highlight"><pre><span></span><code><span class="nt">Block 09 → Coding → Long coding</span><span class="p">:</span>
+<span class="nt">Byte 3 – Bit 7</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Deactivate</span>
+</code></pre></div></p>
+<h3 id="operation-of-electric-windows-after-opening-doors">Operation of electric windows after opening doors<a class="headerlink" href="#operation-of-electric-windows-after-opening-doors" title="Permanent link">&para;</a></h3>
+<p>By default, when the key is removed from the ignition and the first time you open the doors from the passenger compartment, you can control the electric windows (and the sunroof); as soon as the doors are closed, the control is turned off.<br />
+Disabling this function allows you to unblock the operation of the electric windows when the doors are opened.
+<div class="highlight"><pre><span></span><code><span class="nt">Block 09 → Coding → Long coding</span><span class="p">:</span>
+<span class="nt">Byte 4 – Bit 4</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Activate</span>
+</code></pre></div></p>
+<h3 id="operation-of-electric-windows-after-turning-off-the-ignition">Operation of electric windows after turning off the ignition<a class="headerlink" href="#operation-of-electric-windows-after-turning-off-the-ignition" title="Permanent link">&para;</a></h3>
+<p>By default, when you turn off the ignition, you can control the electric windows (and sunroof) from the passenger compartment.<br />
+Disabling this function allows you to block the operation of the power windows when the ignition is turned off.
+<div class="highlight"><pre><span></span><code><span class="nt">Block 09 → Coding → Long coding</span><span class="p">:</span>
+<span class="nt">Byte 4 – Bit 7</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Deactivate</span>
+</code></pre></div></p>
+<h3 id="automatic-closing-of-windows-when-it-rains">Automatic closing of windows when it rains<a class="headerlink" href="#automatic-closing-of-windows-when-it-rains" title="Permanent link">&para;</a></h3>
+<p>If the car is left standing with the windows down and it starts to rain, this function, using a rain sensor, will automatically close the windows so that the rain does not wet the interior.
+<div class="highlight"><pre><span></span><code><span class="nt">Block 09 → Coding → Long coding</span><span class="p">:</span>
+<span class="nt">Byte 4 – Bit 6</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Activate</span>
+</code></pre></div></p>
+<h3 id="driver-seat-belt-warning">Driver seat belt warning<a class="headerlink" href="#driver-seat-belt-warning" title="Permanent link">&para;</a></h3>
+<p>By default, some vehicles (depending on the configuration) have driver belt monitoring enabled. If someone likes to ride without a seat belt, this function can be disabled.
+<div class="highlight"><pre><span></span><code><span class="nt">Block 17 → Coding → Long coding</span><span class="p">:</span>
+<span class="nt">Byte 1 – Bit 1</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Deactivate</span>
+</code></pre></div></p>
+<h3 id="changing-the-sound-of-the-drivers-seat-belt-warning">Changing the sound of the driver's seat belt warning<a class="headerlink" href="#changing-the-sound-of-the-drivers-seat-belt-warning" title="Permanent link">&para;</a></h3>
+<p>By default, some vehicles (depending on the configuration) have driver belt monitoring enabled.<br />
+If someone likes to ride without a seat belt, this function can be disabled.</p>
+<div class="admonition note">
+<p class="admonition-title">Features</p>
+<p>Value 4 – standard, 1 - continuous signal for one and a half minutes</p>
+</div>
+<div class="highlight"><pre><span></span><code><span class="nt">Block 17 → Adaptation</span><span class="p">:</span><span class="w"> </span>
+<span class="l l-Scalar l-Scalar-Plain">channel “IDE00344” → select the desired value → execute</span>
+</code></pre></div>
+<h3 id="horn-operation-when-the-car-is-turned-off">Horn operation when the car is turned off<a class="headerlink" href="#horn-operation-when-the-car-is-turned-off" title="Permanent link">&para;</a></h3>
+<p>By default, the horn only works when the ignition is on or the engine is running.<br />
+With this coding you can turn on the horn even when the car is turned off and the key is removed.
+<div class="highlight"><pre><span></span><code><span class="nt">Block 16 → Coding → Long coding</span><span class="p">:</span>
+<span class="nt">Byte 2 – Bit 2</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Deactivate</span>
+</code></pre></div></p>
+<div class="admonition warning">
+<p class="admonition-title">Note</p>
+<p>Even if the encoding is successfully written, it is not a fact that the function will work, because Suitable only for single copies of cars.</p>
+</div>
+<h3 id="adjusting-the-speedometer-readings">Adjusting the speedometer readings<a class="headerlink" href="#adjusting-the-speedometer-readings" title="Permanent link">&para;</a></h3>
+<p>In accordance with safety standards, the speedometer readings are slightly higher than the actual speed.<br />
+Different vehicles have different levels of overestimation.</p>
+<div class="admonition note">
+<p class="admonition-title">Features</p>
+<p>The number of pulses from the Škoda Octavia (01) overestimates the reading at 100 km/h by ≈ 8 km/h, from the Škoda Fabia (02) - by ≈ 15 km/h.<br />
+The most accurate reading is achieved by setting the number of pulses from the VW Golf (07), but this value may not be recorded on all units.</p>
+</div>
+<div class="highlight"><pre><span></span><code><span class="nt">Block 17 → Coding → Long coding</span><span class="p">:</span>
+<span class="l l-Scalar l-Scalar-Plain">Byte 0 – Bit 0-3 → change the desired value</span>
+</code></pre></div>
+<h3 id="adjusting-fuel-level-readings">Adjusting fuel level readings<a class="headerlink" href="#adjusting-fuel-level-readings" title="Permanent link">&para;</a></h3>
+<p>The fuel level sensor in the tank has a certain error, which is why the inaccuracy in the readings can reach &plusmn; 10 liters.<br />
+Using the “poke” method, you can select a value at which the error will be minimal.
+<div class="highlight"><pre><span></span><code><span class="nt">Block 17 → Adaptation</span><span class="p">:</span><span class="w"> </span>
+<span class="l l-Scalar l-Scalar-Plain">channel “IDE00493” → Select the desired value → execute</span>
+</code></pre></div></p>
+<h3 id="adjusting-fuel-consumption-and-range-readings">Adjusting fuel consumption and range readings<a class="headerlink" href="#adjusting-fuel-consumption-and-range-readings" title="Permanent link">&para;</a></h3>
+<p>Correction in the brain of calculations of fuel consumption and the corresponding power reserve in %.
+<div class="highlight"><pre><span></span><code><span class="nt">Block 17 → Adaptation</span><span class="p">:</span><span class="w"> </span>
+<span class="l l-Scalar l-Scalar-Plain">channel “IDE00499” → Select the desired value → execute</span>
+</code></pre></div></p>
+<h3 id="climate-control-adaptation">Climate control adaptation<a class="headerlink" href="#climate-control-adaptation" title="Permanent link">&para;</a></h3>
+<p>This adaptation opens and closes all the dampers in turn and moves all the internals of the climate control, checks the condition of all buttons and indicator lamps and performs other manipulations that allow you to stir up frozen or stagnant climate control.<br />
+The entire procedure takes less than 1 minute.
+<div class="highlight"><pre><span></span><code><span class="l l-Scalar l-Scalar-Plain">Block 8 → 04 – Basic parameters →</span>
+<span class="l l-Scalar l-Scalar-Plain">channel “IDE01546” → read → wait for the status “Successfully completed”</span>
+</code></pre></div></p>
+<h3 id="disabling-the-parking-sensor-activation-signal">Disabling the parking sensor activation signal<a class="headerlink" href="#disabling-the-parking-sensor-activation-signal" title="Permanent link">&para;</a></h3>
+<p>When you engage reverse gear and turn on the parking sensors, a long beep is heard.  This can be disabled if anyone needs it.
+<div class="highlight"><pre><span></span><code><span class="nt">Block 10 → Adaptation</span><span class="p">:</span><span class="w"> </span>
+<span class="l l-Scalar l-Scalar-Plain">channel "IDE01165"</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Deactivate</span>
+</code></pre></div></p>
+<h3 id="parking-sensor-volume-control">Parking sensor volume control<a class="headerlink" href="#parking-sensor-volume-control" title="Permanent link">&para;</a></h3>
+<p>The volume of the parking sensor signal transmitted through the rear speaker can be adjusted.
+<div class="highlight"><pre><span></span><code><span class="nt">Block 10 → Adaptation</span><span class="p">:</span><span class="w"> </span>
+<span class="l l-Scalar l-Scalar-Plain">channel “MAS01426” → set the desired level</span>
+</code></pre></div></p>
+<h3 id="disabling-the-fuel-filler-door-lock">Disabling the fuel filler door lock<a class="headerlink" href="#disabling-the-fuel-filler-door-lock" title="Permanent link">&para;</a></h3>
+<p>When arming, the gas tank hatch is blocked by a metal rod, which in winter can freeze and refuse to open this very hatch.
+<div class="highlight"><pre><span></span><code><span class="nt">Block 09 → Coding → Long coding</span><span class="p">:</span>
+<span class="nt">Byte 7 – Bit 5</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Activate</span>
+</code></pre></div></p>
+
+
+
+
+
+
+
+  
+    
+  
+  
+    
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Last update">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 12, 2026 10:54:39 UTC">June 12, 2026</span>
+  </span>
+
+    
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Created">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 12, 2026 10:54:39 UTC">June 12, 2026</span>
+  </span>
+
+    
+    
+    
+  </aside>
+
+
+
+
+<!-- Comments -->
+
 
   
     <h2 id="__comments">Comments</h2>
-    <div id="disqus_thread"></div>
+
+    
+
+    
+      <!-- Insert generated code here -->
+      <script src="https://giscus.app/client.js"
+                data-repo="Kanaduchi/vwcoding"
+                data-repo-id="MDEwOlJlcG9zaXRvcnkyMTQ4NTE3Njk="
+                data-category="General"
+                data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyNjYxNjIy"
+                data-mapping="pathname"
+                data-reactions-enabled="1"
+                data-emit-metadata="0"
+                data-theme="light"
+                data-lang="en"
+                crossorigin="anonymous"
+                async>
+      </script>
+    
+
+    <!-- Synchronize Giscus theme with palette -->
     <script>
-      var disqus_config = function() {
-        this.page.url = "http://www.vwcoding.ru/en/PQ35/comfort/"
-        this.page.identifier =
-          "en/PQ35/comfort/"
-
-      }
-
-      /* Set up for the first time */
-      if (typeof DISQUS === "undefined") {
-        var script = document.createElement("script")
-        script.async = true
-        script.src = "https://https-mqb-readthedocs-io.disqus.com/embed.js"
-        script.setAttribute("data-timestamp", Date.now())
-
-        /* Inject script tag */
-        document.body.appendChild(script)
-
-      /* Set up on navigation (instant loading) */
-      } else {
-        DISQUS.reset({
-          reload: true,
-          config: disqus_config
-        })
-      }
+      var giscus = document.querySelector("script[src*=giscus]")
+        
     </script>
   
 
-  <!-- Giscus -->
-  
-  
-  
+                
 
-  <!-- Reload on palette change -->
-  <script>
-    var palette = __md_get("__palette")
-    if (palette && typeof palette.color === "object")
-      if (palette.color.scheme === "slate") {
-        var giscus = document.querySelector("script[src*=giscus]")
-        giscus.setAttribute("data-theme", "dark")
-      }
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
 
-    /* Register event handlers after documented loaded */
-    document.addEventListener("DOMContentLoaded", function() {
-      var ref = document.querySelector("[data-md-component=palette]")
-      ref.addEventListener("change", function() {
-        var palette = __md_get("__palette")
-        if (palette && typeof palette.color === "object") {
-          var theme = palette.color.scheme === "slate" ? "dark" : "light"
-
-          /* Instruct Giscus to change theme */
-          var frame = document.querySelector(".giscus-frame")
-          frame.contentWindow.postMessage(
-            { giscus: { setConfig: { theme } } },
-            "https://giscus.app"
-          )
-        }
-      })
-    })
-  </script>
-
-            </article>
-          </div>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
-          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
-            Back to top
-          </a>
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
         
       </main>
       
         <footer class="md-footer">
   
-    <nav class="md-footer__inner md-grid" aria-label="Footer">
+    
       
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
-        <a href="../multimedia/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Мультимедиа" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
+          
+          <a href="../multimedia/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Мультимедиа">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
               <span class="md-footer__direction">
                 Previous
               </span>
-              Мультимедиа
+              <div class="md-ellipsis">
+                Мультимедиа
+              </div>
             </div>
-          </div>
-        </a>
-      
-      
+          </a>
         
-        <a href="../other/" class="md-footer__link md-footer__link--next" aria-label="Next: Прочие функции" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
+        
+          
+          <a href="../other/" class="md-footer__link md-footer__link--next" aria-label="Next: Прочие функции">
+            <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
-              Прочие функции
+              <div class="md-ellipsis">
+                Прочие функции
+              </div>
             </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2022 - vwcoding.ru (info@vwcoding.ru)
+      Copyright &copy; 2026 - vwcoding.ru (info@vwcoding.ru)
     </div>
   
   
@@ -3175,10 +2868,17 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.annotate", "navigation.expand", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../../assets/javascripts/workers/search.bd0b6b67.min.js"}</script>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
     
     
-      <script src="../../../assets/javascripts/bundle.8aa65030.min.js"></script>
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.code.select", "content.tabs.link", "content.tooltips", "navigation.expand", "navigation.footer", "navigation.indexes", "navigation.instant", "navigation.instant.progress", "navigation.path", "navigation.prune", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "announce.dismiss", "toc.follow"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
     
   </body>
